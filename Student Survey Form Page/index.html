@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <h1><big>Course Feedback Form</big></h1>
+        <h1 id="top"><big>Course Feedback Form</big></h1>
         <nav>
             <a href="#personalinfo">PERSONAL INFORMATION:</a><br>
             <a href="#rating">COURSE RATING:</a><br>
@@ -16,7 +16,8 @@
             <a href="#comment">COMMENT:</a><br>
             <a href="#grade">GRADING CRITERIA:</a><br>
             <a href="#fill">INSTRUCTIONS TO FILL FORM:</a><br>
-            <a href="#submit">SUBMIT</a><br>
+            <a href="#submit">SUBMIT</a><br><br>
+            <a href="#bottom">Scroll Down</a>
        
         </nav>
 
@@ -83,11 +84,33 @@
                     </ol>                                               
                 </section>
             </li>
-            
-  
+            <li>
+                <section id="sem">
+                    <h3>SEMESTER</h3>
+                    <label for="semester">SELECT:</label>
+                        <select name="semester" id="semester">
+                            <option value="1">FIRST</option>
+                            <option value="2">SECOND</option>
+                            <option value="3">THIRD</option>
+                            <option value="4">FOURTH</option>
+                            <option value="5">FIFTH</option>
+                            <option value="6">SIXTH</option>
+                            <option value="7">SEVENTH</option>
+                            <option value="8">EIGHTH</option>
+
+                        </select>
+
+                </section>
+            </li>
         </ul>
+        <input type="submit" value="submit">
         </form>
     </MAIN>
+    <footer>
+        <nav id="bottom">
+            <a href="#top">Scroll Top:</a>
+        </nav>
+    </footer>
     
 </body>
 </html>
