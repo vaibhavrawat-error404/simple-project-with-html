@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <h1 id="top"><big>Course Feedback Form</big></h1>
+        <h1 id="top" align="center"><big>Course Feedback Form</big></h1>
         <nav>
             <a href="#personalinfo">PERSONAL INFORMATION:</a><br>
             <a href="#rating">COURSE RATING:</a><br>
@@ -37,6 +37,8 @@
                     <input type="text" placeholder="Enter your email" required="true"><br><br>
                 <label for="phone">PHONE NUMBER:</label>
                     <input type="text" placeholder="Enter your Phone number " required="true"><br><br>
+                <label for="dob">DATE OF BIRTH:</label>
+                    <input type="date" placeholder="Enter you DOB" required="true"><br><br>
             
                 </section>
             </li>
@@ -58,7 +60,7 @@
                 </section>
 
             </li>
-            <br><br>
+            <br>
             <li>
                 <section id="topics">
                     <h3>COVERED TOPICS</h3>
@@ -84,6 +86,7 @@
                     </ol>                                               
                 </section>
             </li>
+            <br>
             <li>
                 <section id="sem">
                     <h3>SEMESTER</h3>
@@ -99,6 +102,61 @@
                             <option value="8">EIGHTH</option>
 
                         </select>
+
+                </section>
+            </li>
+            <br>
+            <li>
+                <h3>COMMENT</h3>
+                <section id="comment"></section>
+                <textarea style="width: 100%; box-sizing: border-box" rows="10" cols="40">
+                   
+                </textarea>
+
+            </li>
+            <br>
+            <li>
+                <section id="grade">
+                    <h3>GRADING CRITERIA</h3>
+                    <table border="1" align="center">
+                            <tr>
+                                <th>GRADE</th>
+                                <TH>RANGE</TH>
+                                <TH>REMARKS</TH>
+                            </tr>
+
+                            <tr>
+                                <td>A+</td>
+                                <td>90-100</td>
+                                <td>OUSTANDING</td>
+                            </tr>
+                            <tr>
+                                <td>A</td>
+                                <td>80-90</td>
+                                <td>Excellent</td>                                
+                            </tr>
+                            <tr>
+                                <td>B</td>
+                                <td>60-80</td>
+                                <td>Good</td>                                
+                            </tr>
+                            <tr>
+                                <td>C</td>
+                                <td>50-60</td>
+                                <td>Average</td>                                
+                            </tr>
+                            <tr>
+                                <td>D</td>
+                                <td>30-50</td>
+                                <td>Need Improvement</td>
+                            </tr>
+                            <tr>
+                                <td>F</td>
+                                <td>below 30</td>
+                                <td>Fail</td>
+                            </tr>
+
+                    </table>
 
                 </section>
             </li>
