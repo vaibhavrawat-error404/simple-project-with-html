@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Feedback / Survey Form Page</title>
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
     <header>
-        <h1 id="top" align="center"><big>Course Feedback Form</big></h1>
+        <h1 id="top" align="center"a><big>Course Feedback Form</big></h1>
+        
         <nav>
             <a href="#personalinfo">PERSONAL INFORMATION:</a><br>
             <a href="#rating">COURSE RATING:</a><br>
@@ -20,6 +22,7 @@
             <a href="#bottom">Scroll Down</a>
        
         </nav>
+        
 
     </header>
     <hr>
@@ -118,7 +121,7 @@
             <li>
                 <section id="grade">
                     <h3>GRADING CRITERIA</h3>
-                    <table border="1" align="center">
+                    <table border="1" width="100%" cellpadding="8" bgcolor="#f9f9f9">
                             <tr>
                                 <th>GRADE</th>
                                 <TH>RANGE</TH>
@@ -160,13 +163,29 @@
 
                 </section>
             </li>
+            <li>
+                <section id="fill">
+                    <h3>INSTRUCTION TO FILL FORM</h3>
+                    <ol>
+                        <li>Enter your full name and email correctly.</li>
+                        <li>Select your semester from the dropdown.</li>
+                        <li>Choose only one option for course rating (radio button).</li>
+                        <li>You may select multiple topics using checkboxes.</li>
+                        <li>Comments section is optional but appreciated.</li>
+                        <li>Click Submit once all required fields are filled.</li>
+                    </ol>
+
+                </section>
+            </li>
         </ul>
-        <input type="submit" value="submit">
+            <div align="center">
+                <input type="submit" value="Submit" id="submit">
+            </div>
         </form>
     </MAIN>
     <footer>
         <nav id="bottom">
-            <a href="#top">Scroll Top:</a>
+            <a href="#top" >Scroll Top:</a>
         </nav>
     </footer>
     

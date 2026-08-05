@@ -1,0 +1,19 @@
+MAIN{
+    background-color: pink;
+}
+HEADER{
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 30px 20px 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+*H3{
+    color: rgb(232, 130, 207);
+}
+nav a{
+    box-sizing: border-box;
+    box-sizing: rgb(248, 161, 176);
+}
